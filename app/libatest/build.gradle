@@ -48,7 +48,11 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation files('libs/libB.jar')
+//    implementation files('libs/libB.jar') //jar 로 땡겨오기
+
+    //aar로 땡겨오기
 //    implementation fileTree(dir:'libs',includes: ['*.jar'])
 //    implementation name: 'testlibs-release' ,ext: 'aar'
+
+    implementation 'com.github.LeeYoungki:LibB:1.0'
 }
