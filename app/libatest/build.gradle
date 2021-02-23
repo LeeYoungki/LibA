@@ -44,11 +44,11 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
-    implementation files('C:\\Users\\cary\\Documents\\ondelab\\Projects\\LibA\\app\\libatest\\libs\\testlibs-debug.aar')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    implementation files('libs/libB.jar')
 //    implementation fileTree(dir:'libs',includes: ['*.jar'])
-//    implementation name: 'testlibs-debug' ,ext: 'aar'
+//    implementation name: 'testlibs-release' ,ext: 'aar'
 }
