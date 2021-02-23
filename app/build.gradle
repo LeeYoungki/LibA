@@ -50,6 +50,6 @@ dependencies {
 
 
 
-    implementation fileTree(dir:'libs',includes: ['*.jar'])
-    implementation name: 'testlibs-debug' ,ext: 'aar'
+//    implementation fileTree(dir:'libs',includes: ['*.jar'])
+//    implementation name: 'testlibs-debug' ,ext: 'aar'
 }
